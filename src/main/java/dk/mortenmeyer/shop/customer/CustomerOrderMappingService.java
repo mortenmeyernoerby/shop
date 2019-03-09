@@ -4,6 +4,8 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 import dk.mortenmeyer.shop.order.PurchaseOrder;
+import dk.mortenmeyer.shop.customer.representations.CustomerOrderRepresentation;
+import dk.mortenmeyer.shop.customer.representations.ItemRepresentation;
 import org.springframework.stereotype.Service;
 
 @Service

@@ -1,4 +1,4 @@
-package dk.mortenmeyer.shop.customer;
+package dk.mortenmeyer.shop.customer.representations;
 
 import lombok.Builder;
 import lombok.Getter;

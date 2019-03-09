@@ -11,6 +11,7 @@ import java.util.Collections;
 import dk.mortenmeyer.shop.item.Item;
 import dk.mortenmeyer.shop.order.PurchaseOrder;
 import dk.mortenmeyer.shop.order.PurchaseOrderRepository;
+import dk.mortenmeyer.shop.customer.representations.CustomerOrderRepresentation;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.mockito.InjectMocks;

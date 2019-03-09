@@ -10,6 +10,7 @@ import dk.mortenmeyer.shop.exceptions.CustomerNotFoundException;
 import dk.mortenmeyer.shop.exceptions.PurchaseOrderNotFoundException;
 import dk.mortenmeyer.shop.order.PurchaseOrder;
 import dk.mortenmeyer.shop.order.PurchaseOrderRepository;
+import dk.mortenmeyer.shop.customer.representations.CustomerOrderRepresentation;
 import org.hamcrest.core.Is;
 import org.junit.Rule;
 import org.junit.Test;
