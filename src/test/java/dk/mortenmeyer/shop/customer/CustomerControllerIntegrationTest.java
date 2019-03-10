@@ -39,15 +39,15 @@ public class CustomerControllerIntegrationTest {
 
         assertThat(json.get("orderId"), is(1));
         assertThat(json.get("customerId"), is(1));
-        assertThat(json.get("totalPrice"), is(350f));
-        assertThat(json.get("discount"), is(50f));
+        assertThat(json.get("totalPrice"), is(1544f));
+        assertThat(json.get("discount"), is(200f));
         assertThat(json.get("items.size()"), is(2));
         assertThat(json.get("items[0].id"), is(1));
-        assertThat(json.get("items[0].name"), is("ItemA"));
-        assertThat(json.get("items[0].price"), is(100f));
+        assertThat(json.get("items[0].name"), is("Far Cry 5"));
+        assertThat(json.get("items[0].price"), is(445f));
         assertThat(json.get("items[1].id"), is(2));
-        assertThat(json.get("items[1].name"), is("ItemB"));
-        assertThat(json.get("items[1].price"), is(300f));
+        assertThat(json.get("items[1].name"), is("Sonos - PLAY:1 Trådløs Multirumshøjtaler Hvid"));
+        assertThat(json.get("items[1].price"), is(1299f));
     }
 
     @Test

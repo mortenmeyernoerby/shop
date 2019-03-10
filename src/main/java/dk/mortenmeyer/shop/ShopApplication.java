@@ -22,11 +22,11 @@ public class ShopApplication {
 		return args -> {
 			Customer customerA = new Customer("Peter Jensen", "Møllevej 10");
             PurchaseOrder orderA1 = new PurchaseOrder();
-            Item itemA = new Item("ItemA", 100);
-            Item itemB = new Item("ItemB", 300);
+            Item itemA = new Item("Far Cry 5", 445);
+            Item itemB = new Item("Sonos - PLAY:1 Trådløs Multirumshøjtaler Hvid", 1299);
             orderA1.addItem(itemA);
             orderA1.addItem(itemB);
-            orderA1.setDiscount(50);
+            orderA1.setDiscount(200);
             customerA.addOrder(orderA1);
 
             PurchaseOrder orderA2 = new PurchaseOrder();
